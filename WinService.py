@@ -8,9 +8,9 @@ import win32serviceutil
 class WinService(win32serviceutil.ServiceFramework):
     '''Base class to create a Python Windows Service'''
 
-    _svc_name_ = "JnJ Service"
-    _svc_display_name_ = "JnJ Service"
-    _svc_description_ = "JnJ service description"
+    _svc_name_ = "Service Name"
+    _svc_display_name_ = "Service Display Name"
+    _svc_description_ = "Service Description"
 
     @classmethod
     def parse_command_line(cls):
