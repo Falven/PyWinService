@@ -4,9 +4,9 @@ from WinService import WinService
 
 class Agent(WinService):
 
-    _svc_name_ = "MissionControlAgent"
-    _svc_display_name_ = "Mission Control Agent"
-    _svc_description_ = "Device management capabilities for Mission Control"
+    _svc_name_ = "Agent"
+    _svc_display_name_ = "Agent Display Name"
+    _svc_description_ = "Agent Description"
 
     def start(self):
         self.isrunning = True
@@ -16,7 +16,7 @@ class Agent(WinService):
 
     def main(self):
         while self.isrunning:
-            print("Hello JnJ...")
+            print("Hello Agent...")
             time.sleep(5)
 
 
