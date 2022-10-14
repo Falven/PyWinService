@@ -26,12 +26,16 @@ the specified period.
 
 Copy the following files:
 
+```
 C:\...\Python\Python310\Lib\site-packages\pywin32_system32\pythoncom310.dll
 C:\...\Python\Python310\Lib\site-packages\pywin32_system32\pywintypes310.dll
+```
 
 to
 
+```
 C:\...\Python\Python310\Lib\site-packages\win32
+```
 
 ## Service Code
 
@@ -44,6 +48,8 @@ Installing service MissionControlAgent
 
 ## Service Start
 
+```
 net start MissionControlAgent
 The Mission Control Agent service is starting.
 The Mission Control Agent service was started successfully.
+```
