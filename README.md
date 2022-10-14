@@ -46,13 +46,13 @@ Inherit from WinService and override the start, stop, and main methods.
 
 ```
 python Agent.py install
-Installing service MissionControlAgent
+Installing service Agent
 ```
 
 ## Service Start
 
 ```
-net start MissionControlAgent
-The Mission Control Agent service is starting.
-The Mission Control Agent service was started successfully.
+net start Agent
+The Agent service is starting.
+The Agent service was started successfully.
 ```
