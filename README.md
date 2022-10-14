@@ -1,6 +1,7 @@
 # Python Service in Windows
 
 Working example on creating a Python service in Windows
+
 Tested on Windows 11 Enterprise 22621
 
 ## Usage
@@ -43,8 +44,10 @@ Inherit from WinService and override the start, stop, and main methods.
 
 ## Service Installation
 
+```
 python Agent.py install
 Installing service MissionControlAgent
+```
 
 ## Service Start
 
