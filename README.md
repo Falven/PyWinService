@@ -5,6 +5,7 @@ Tested on Windows 11 Enterprise 22621
 
 ## Usage
 
+```
 Usage: 'Agent.py [options] install|update|remove|start [...]|stop|restart [...]|debug [...]'
 Options for 'install' and 'update' commands only:
 --username domain\username : The Username the service is to run under
@@ -19,6 +20,7 @@ Options for 'start' and 'stop' commands only:
 If you specify --wait with the 'stop' option, the service
 and all dependent services will be stopped, each waiting
 the specified period.
+```
 
 ## Service Pre-requisites
 
